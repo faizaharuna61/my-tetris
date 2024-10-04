@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eeeeee;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game_container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 10rem;
+    align-items: center;
+}
+
+.tetris_game_space {
+    margin-top: 1rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gamecanvas {
+    display: flex;
+    border: 1px solid #0a0a11;
+}
+.score_display{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #0a0a11;
+    text-align: center;
+}
+.score_display p{
+    font-size: 20px;
+}
+.line_display{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #0a0a11;
+    text-align: center;
+}
+.line_display p{
+    font-size: 20px;
+}
+.level_display{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #0a0a11;
+    text-align: center;
+}
+.level_display p{
+    font-size: 20px;
+}
+.info_panel {
+    margin-left: 20px;
+}
+.info_panel h1{
+    display: flex;
+    font-weight: bolder;
+}
+.tetromo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #0a0a11;
+    align-items: center;
+}
+.tetromo #nextPieceCanvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: none;
+}
+.score-board {
+    margin-top: 20px;
+}
+.controls {
+    margin-top: 20px;
+    text-align: left;
+}
+.btn button {
+    display: inline;
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(3, 3, 37);
+    color: #fff;
+    border: none;
+    transition: all 0.3s;
+}
+.btn button:hover{
+    color: #f1ecbb;
+}
